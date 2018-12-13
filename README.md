@@ -7,7 +7,6 @@
 * Users should see who sent message to the chat and when
 * Users should see who os in the chat room right now
 
-<i>Additional: possibility to start video streaming from users webcam<i>
 
 ##### Solution should:
 1) Be written primarily in JavaScript
@@ -16,4 +15,3 @@
 4) Use node.js for the server side
 5) Use socket.io for communication between the client and the server
 6) Use React JS for UI
-7) Use WebRTC for the video chat part
