@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import moment from 'moment';
-import uniqid from 'uniqid';
 
 import Message from './Message/Message';
 
@@ -48,12 +47,12 @@ export default class Messages extends Component {
     };
 
     render() {
-        const messages = this.state.messages.map(message => {
+        const messages = this.state.messages.map((message, idx) => {
             return (<Message
                             name={message.name || ''}
                             time={message.time}
                             text={message.text}
-                            key={uniqid()} />)
+                            key={idx} />)
         });
         return (
             <ol 
