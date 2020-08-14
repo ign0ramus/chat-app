@@ -5,7 +5,7 @@
 * User can copy link to the room and send to another user to invite him
 * User can sent text messages to the chat and all users in the chat will see message
 * Users should see who sent message to the chat and when
-* Users should see who os in the chat room right now
+* Users should see who is in the chat room right now
 
 
 ##### Solution should:
